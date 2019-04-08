@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff257fc7</color>
+    <color name="colorPrimaryDark">#ff257fc7</color>
+    <color name="colorAccent">#ff257fc7</color>
+    <!--底部导航栏选中字体颜色-->
+    <color name="text_delet_main">#ff257fc7</color>
+    <!--底部导航栏未选中字体颜色-->
+    <color name="text_main3">#ff333333</color>
+    <color name="text_main">#ff666666</color>
+    <color name="text_main2">#ff999999</color>
+    <color name="text_mainw">#ffffffff</color>
+    <color name="text_mainlin">#ffefefef</color>
+    <color name="yellow">#e7aa11</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">龙易钱包</string>
+    <string name="title_home">借款</string>
+    <string name="title_dashboard">还款</string>
+    <string name="title_notifications">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

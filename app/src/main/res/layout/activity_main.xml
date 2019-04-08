@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        ></FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/main_homepage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <ImageView
+                android:id="@+id/ivmain_homepage"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/icon_menu_1_pressed" />
+
+            <TextView
+                android:id="@+id/tvmain_homepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="贷款"
+                android:textColor="@color/text_delet_main"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_bookshelf"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <ImageView
+                android:id="@+id/ivmain_bookshelf"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/icon_menu_2_normal" />
+
+            <TextView
+                android:id="@+id/tvmain_bookshelf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="还款"
+                android:textColor="@color/text_main"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/main_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+
+            <ImageView
+                android:id="@+id/ivmain_search"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_menu_3_normal" />
+
+            <TextView
+                android:id="@+id/tvmain_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="贷款大全"
+                android:textColor="@color/text_main"
+                android:textSize="12dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/main_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+
+            <ImageView
+                android:id="@+id/ivmain_mine"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:src="@drawable/icon_menu_4_normal" />
+
+            <TextView
+                android:id="@+id/tvmain_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                android:textColor="@color/text_main"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

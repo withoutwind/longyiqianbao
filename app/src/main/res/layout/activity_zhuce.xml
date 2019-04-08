@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ZhuceActivity">
+    <ImageView
+        android:id="@+id/closeback"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        android:textColor="@color/text_main"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/text_main2">
+
+    </View>
+
+
+        <EditText
+            android:id="@+id/poneword_retrieve"
+           android:textColor="@color/text_main3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@null"
+            android:hint="请输入手机号"
+            android:layout_marginLeft="17dp"
+            android:inputType="number"
+            android:textColorHint="@color/text_main2"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+
+    <View
+        android:background="@color/text_main2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp">
+
+    </View>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="17dp">
+
+
+        <EditText
+            android:id="@+id/yanzhengma"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:background="@null"
+            android:digits="0123456789"
+            android:gravity="bottom"
+            android:textColor="@color/text_main3"
+            android:hint="请输入验证码"
+            android:maxLength="6"
+            android:textColorHint="@color/text_main2"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+        <View
+            android:background="@color/text_main2"
+            android:layout_width="190dp"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true">
+
+        </View>
+
+
+        <com.example.android.xiaolv.SuperButton
+            android:id="@+id/huoquyanzhengma"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="获取验证码"
+            app:sSolidColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textColor="@color/text_mainw"
+            app:sCornersRadius="3dp"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="17dp">
+
+
+        <EditText
+            android:id="@+id/passwordok"
+            android:textColor="@color/text_main3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请设置密码（6-16位数字或字母）"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textColorHint="@color/text_main2"
+            android:textCursorDrawable="@null"
+            android:textSize="15sp" />
+
+
+        <View
+            android:background="@color/text_main2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true">
+
+        </View>
+
+    </RelativeLayout>
+
+
+
+    <com.example.android.xiaolv.SuperButton
+        android:id="@+id/zhuceok"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="注册"
+        android:textColor="@color/text_mainw"
+        android:textSize="15sp"
+        app:sCornersRadius="5dp"
+        app:sSolidColor="@color/colorPrimary"
+        />
+</LinearLayout>
